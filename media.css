@@ -1,0 +1,137 @@
+/*^========> Container <========*/
+@media screen and (min-width: 1400px) {
+    .container {
+      max-width: 1320px;
+    }
+    .header-container{
+        max-width: 1320px; 
+    }
+    .gallery-photos {
+      height: 1405px;
+  }
+  }
+  
+  @media screen and (max-width: 1400px) {
+    .container {
+      max-width: 1140px;
+    }
+    .header-container{
+        max-width: 1140px;
+    }
+    .gallery-photos {
+        height: 1100px;
+    }
+  }
+  
+  @media screen and (max-width: 1200px) {
+    .container {
+      max-width: 960px;
+    }
+    .header-container{
+        max-width: 960px;
+    }
+    .social, .contacts-details{
+        width: 48%;
+        order:1;
+    }
+   
+    .subscribe {
+        width: 100%;
+        order: 2;
+    }
+    .gallery-photos {
+        height: 845px;
+    }
+  }
+  
+  @media screen and (max-width: 992px) {
+    .container {
+      max-width: 720px;
+    }
+    .header-container{
+        max-width: 720px;
+    }
+    .header .container {
+        flex-direction: column-reverse;
+        gap: 50px;
+        margin-top: 5.5rem;
+    }
+    .header .container > * {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .cards .card{
+        width: 48%;
+    }
+    .gallery-photos {
+        height: 1405px;
+    }
+    .gallery-photos{
+         max-width: 720px;
+    }
+   
+    .gallery-photos picture{
+        width: 48%;
+    }
+    .gallery .pizza {
+        order: 1;
+      }
+      .gallery .fried {
+        order: 6;
+      }
+      .gallery .omelette {
+        order: 4;
+      }
+      .gallery .kofta {
+        order: 7;
+      }
+      .gallery .burger {
+        order: 2;
+      }
+      .gallery .pizza-slices {
+        order: 3;
+      }
+      .gallery .steak {
+        order: 5;
+      }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .container {
+      max-width: 540px;
+    }
+    .header-container{
+        max-width: 540px; 
+    }
+    .cards .card{
+        width: 100%;
+    }
+    .box{
+        width: 100%;
+    }
+    .your-name, .your-email {
+        width: 100%;
+    }
+    .social, .contacts-details,.subscribe{
+        width: 100%;
+        order:0;
+    }
+    .gallery-photos {
+         height: auto; 
+    }
+    .gallery-photos picture {
+        width: 100%;
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .container {
+      padding-inline: 15px;
+    }
+    .header-container{
+        padding-inline: 15px; 
+    }
+  }
